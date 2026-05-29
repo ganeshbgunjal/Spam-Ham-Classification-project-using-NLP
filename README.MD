@@ -45,11 +45,11 @@ WordCloud
 Flask
 Streamlit
 ### Project Workflow
-1. Data Collection
+### 1. Data Collection
 Load SMS spam dataset.
 Understand dataset structure.
 Verify class distribution.
-2. Data Preprocessing
+#### 2. Data Preprocessing
 
 Text preprocessing steps include:
 
@@ -59,18 +59,18 @@ Stopword Removal
 Punctuation Removal
 Stemming
 Text Cleaning
-3. Exploratory Data Analysis (EDA)
+#### 3. Exploratory Data Analysis (EDA)
 Class distribution analysis.
 Word frequency analysis.
 Spam vs Ham comparison.
 Word Cloud visualization.
-4. Feature Engineering
+#### 4. Feature Engineering
 
-### Text vectorization techniques:
+Text vectorization techniques:
 
 Bag of Words (BoW)
 TF-IDF Vectorization
-5. Model Development
+#### 5. Model Development
 
 ### Machine learning algorithms evaluated:
 
@@ -78,16 +78,16 @@ Naive Bayes
 Logistic Regression
 Support Vector Machine (SVM)
 Random Forest Classifier
-6. Model Evaluation
+#### 6. Model Evaluation
 
-### Performance metrics used:
+Performance metrics used:
 
 Accuracy Score
 Precision Score
 Recall Score
 F1 Score
 Confusion Matrix
-7. Deployment
+#### 7. Deployment
 
 The trained model is deployed using Flask or Streamlit, allowing users to enter text messages and instantly classify them as Spam or Ham.
 
